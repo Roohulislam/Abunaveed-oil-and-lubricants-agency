@@ -65,11 +65,15 @@ const BannerTwo = () => {
         {/* Additional Paragraphs */}
         <div className="flex items-center">
           <FaWhatsapp className=" mb-2 " />
-          <p className="text-gray-600 mb-2 px-3 font-bold">03455000088</p>
+          <p className="text-gray-600 mb-2 px-3 font-bold hover:cursor-pointer  hover:text-blue-700">
+            03455000088
+          </p>
         </div>
         <div className="flex items-center">
           <BiLogoGmail className=" mb-2 " />
-          <p className="text-gray-600 mb-2 px-3 font-bold">qare123@gmail.com</p>
+          <p className="text-gray-600 mb-2 px-3 font-bold hover:cursor-pointer hover:text-blue-700">
+            qare123@gmail.com
+          </p>
         </div>
       </div>
     </section>
